@@ -6,10 +6,12 @@
 wget https://golang.org/dl/go1.19.linux-amd64.tar.gz
 sudo rm -rf /usr/local/go && sudo tar -C /usr/local -xzf go1.19.linux-amd64.tar.gz
 echo "" | sudo tee -a ~/.bashrc
+export PATH=$PATH:/usr/local/go/bin
 echo "export PATH=\$PATH:/usr/local/go/bin" | sudo tee -a ~/.bashrc
 echo "" | sudo tee -a ~/.zshrc
 echo "export PATH=\$PATH:/usr/local/go/bin" | sudo tee -a ~/.zshrc
 echo "" | sudo tee -a ~/.bashrc
+export PATH=$PATH:$HOME/go/bin
 echo "export PATH=\$PATH:\$HOME/go/bin" | sudo tee -a ~/.bashrc
 echo "" | sudo tee -a ~/.zshrc
 echo "export PATH=\$PATH:\$HOME/go/bin" | sudo tee -a ~/.zshrc
