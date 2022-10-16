@@ -1,3 +1,3 @@
 FROM scratch
-COPY seed /
-ENTRYPOINT ["/seed"]
+COPY tailscale_ingress /
+ENTRYPOINT ["/tailscale_ingress"]

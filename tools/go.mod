@@ -1,4 +1,4 @@
-module github.com/golang-templates/seed/build
+module github.com/theFong/tailscale-ingress/build
 
 go 1.19
 
